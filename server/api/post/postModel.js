@@ -1,4 +1,6 @@
 var mongoose=require('mongoose')
+//mongoose.set("strictQuery", false);
+
 var Schema= mongoose.Schema;
 var postSchema=new Schema({
     title:{
